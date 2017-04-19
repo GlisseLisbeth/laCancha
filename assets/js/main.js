@@ -1,4 +1,5 @@
 window.addEventListener('load', function(){
+
   var body = document.getElementsByTagName('body')[0];
   var camp = document.createElement('div');
   camp.setAttribute('class','camp');
@@ -31,4 +32,5 @@ window.addEventListener('load', function(){
   var minCircle3 = document.createElement('div');
   minCircle3.setAttribute('class','min-circle-3');
   border.appendChild(minCircle3);
+
 });
